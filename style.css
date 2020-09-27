@@ -1,0 +1,123 @@
+body{
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+.circle{
+    background: white;
+    width: 400px ;
+    height: 400px;
+    position: absolute;
+    border-radius: 250px;
+    left: 450px;
+    top: 145px;
+    padding: 10px;
+   
+}
+.hand-top-left{
+    width: 35px;
+    height: 90px;
+    margin-left: 100px;
+    background: black;
+    margin:200px 0 0 148px;
+    border-radius: 5px;
+}
+.hand-top-right{
+    width: 25px;
+    height: 90px;
+    margin-left: 100px;
+    background: black;
+    margin:200px 0 0 38px;
+    border-radius: 5px;
+}
+.hand-down-left{
+    width: 35px;
+    height: 70px;
+    background: black;
+    margin:20px 0 0 30px;
+   position: absolute;
+   top: 130px;
+   left: 116px;
+   transform: rotate(-24deg);
+   border-radius: 5px;
+}
+.hand-down-right{
+    width: 27px;
+    height: 70px;
+    background: black;
+    margin:20px 0 0 25px;
+   position: absolute;
+   top: 125px;
+   left: 160px;
+   transform: rotate(-24deg);
+   border-radius: 5px;
+}
+.big-finger{
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    background: black;
+    top: 127px;
+    left: 140px;
+    border-radius: 5px;
+    border-top : 1px solid #333333;
+    transform: rotate(20deg);
+    border-left: none;
+    border-bottom: none;
+
+}
+.on-bfinger{
+    position: absolute;
+    width: 9px;
+    height: 20px;
+    background: black;
+    top: 113px;
+    left: 160px;
+    transform: rotate(110deg);
+    border-radius: 7px;
+    border: 1px solid #333333;
+}
+.second-finger{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: black;
+    top: 140px;
+    left: 153px;
+    transform: rotate(110deg);
+    border-radius: 7px;
+    border: 1px solid #333333;
+}
+.third-finger{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: black;
+    top: 149px;
+    left: 173px;
+    transform: rotate(110deg);
+    border-radius: 7px;
+    border: 1px solid #333333;
+}
+.fourth-finger{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: black;
+    top: 157px;
+    left: 193px;
+    transform: rotate(110deg);
+    border-radius: 7px;
+    border: 1px solid #333333;
+}
+.bfinger{
+    position: absolute;
+    width: 25px;
+    height: 47px;
+    background: black;
+    top: 120px;
+    left: 153px;
+    transform: rotate(110deg);
+    border-radius: 7px;
+    border-left: 1px solid #333333 ;
+}
